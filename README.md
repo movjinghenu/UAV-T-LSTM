@@ -151,6 +151,3 @@ A BibTeX entry will be added after formal publication. Until then, please cite a
 * Repository: [https://github.com/movjinghenu/UAV-T-LSTM/](https://github.com/movjinghenu/UAV-T-LSTM/)
 
 ```
-
-如果你把这个 README 粘贴上去后，我建议你再做一个“锦上添花”的小改动：添加 `.gitignore`（防止以后误把大文件再传上来）。你要的话我也可以给你一份同样“直接粘贴即可用”的 `.gitignore`。
-```
