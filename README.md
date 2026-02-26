@@ -118,13 +118,11 @@ Columns:
 
 ---
 
-## Raw UAV Imagery (Not in this Repo)
 
-The raw 2024 UAV multispectral imagery (~1.33GB) is not included in this GitHub repo due to size constraints and to keep the repository lightweight.
-
-If you are an academic user and need access to the raw imagery, please contact the author (see **Contact**).
-If an external archive link/DOI is available, it will be added here in the future.
-
+## Raw UAV imagery (Zenodo)
+- Dataset (v1.0): https://doi.org/10.5281/zenodo.18778904
+- File: UAV-T-LSTM-24UAVFIG.7z (~1.4 GB)
+- License: CC BY 4.0
 ---
 
 ## License
