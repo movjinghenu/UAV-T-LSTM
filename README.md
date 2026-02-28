@@ -1,7 +1,7 @@
 
 # UAV-T-LSTM: ROI-Level UAV–Satellite Fusion for NDVI Time-Series Reconstruction
 
-This repository shares code and ROI-level time-series tables for reconstructing continuous NDVI trajectories from heterogeneous UAV and Sentinel-2 observations under irregular sampling. It also includes multiple baseline reconstructions (linear, spline, T-RNN, PIGAN, BRIOS) for comparison.
+This repository shares code and ROI-level time-series tables for reconstructing continuous NDVI trajectories from heterogeneous UAV and Sentinel-2 observations under irregular sampling. It also includes multiple baseline reconstructions (linear, spline, T-LSTM, PIGAN, BRIOS) for comparison.
 
 **Repository URL**: https://github.com/movjinghenu/UAV-T-LSTM/
 
