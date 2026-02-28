@@ -30,7 +30,7 @@ UAV-T-LSTM/
 
 ### Code (`code/`)
 - **UAV-T-LSTM** (our reconstruction model)
-- Baselines: **Linear**, **Spline**, **T-RNN**, **PIGAN**, **BRIOS**
+- Baselines: **Linear**, **Spline**, **T-LSTM**, **PIGAN**, **BRIOS**
 
 ### Data tables (`data/`)
 - `figdata.xlsx`: multi-year ROI-level NDVI tables aligned on **DOY** (day of year), including observation channels and reconstructed trajectories from different methods
