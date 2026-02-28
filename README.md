@@ -14,7 +14,6 @@ This repository shares code and ROI-level time-series tables for reconstructing 
 UAV-T-LSTM/
 ├── code/                    # Python scripts (methods and baselines)
 │   ├── UAV-T-LSTM.py        # our method (UAV-T-LSTM / Ours)
-│   ├── T-RNN.py             # baseline: time-aware RNN
 │   ├── PIGAN.py             # baseline
 │   ├── brios.py             # baseline
 │   ├── spline.py            # baseline: spline interpolation
@@ -66,7 +65,6 @@ Example (the exact script behavior depends on each file):
 ```bash
 python code/spline.py
 python code/lin.py
-python code/T-RNN.py
 python code/PIGAN.py
 python code/brios.py
 python code/UAV-T-LSTM.py
@@ -92,7 +90,7 @@ Common columns (depending on sheet):
 * `u_data` (float): UAV ROI NDVI observations (NaN if missing; may exist only for certain years)
 * `lin` or `line` (float): linear interpolation reconstruction
 * `spline` (float): spline interpolation reconstruction
-* `T-RNN` (float): T-RNN reconstruction
+* `T-LSTM` (float): T-LSTM reconstruction
 * `PIGAN` (float): PIGAN reconstruction
 * `brios` (float): BRIOS reconstruction
 * `net` (float): our method reconstruction (UAV-T-LSTM / Ours)
